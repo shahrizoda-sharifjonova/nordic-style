@@ -1,0 +1,11 @@
+mixin contacts()
+    .contacts 
+        .contacts__body.container 
+            h2.contacts__title Get in touch
+            p.contacts__desc Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per conubia! Maecenas gravida lacus. Lorem etiam sit amet convallis erat.
+            form(action="").contacts__form
+                input(type="number" placeholder="Enter your phone (e.g. +14155552675)").contacts__input.sm  
+                input(type="text" placeholder="Enter a valid email address").contacts__input
+                input(type="text" placeholder="Enter your Name").contacts__input
+                textarea(name="textarea" placeholder="Enter your message").contacts__textarea
+                button(type="submit").contacts__btn Submit
